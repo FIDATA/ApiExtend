@@ -135,3 +135,11 @@ Supported GET parameters:
 Example request url:
 
     https://app1.spmeesseman.com/projects/plugins/ApiExtend/api/versionbadge/Releases/current?color=D7A54A
+
+## Creating Composer package
+
+```
+mkdir build
+composer archive --format=zip --dir=build --file=ApiExtend
+curl -u%ARTIFACTORY_USERNAME%:%ARTIFACTORY_PASSWORD% "https://fidata.jfrog.io/fidata/composer-local/fidata/ApiExtend.zip;composer.version=1.2.1" -T build/ApiExtend.zip
+```

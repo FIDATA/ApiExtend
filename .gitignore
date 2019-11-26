@@ -2,3 +2,5 @@ build
 .svn
 .vscode
 rest-priv*
+
+/vendor

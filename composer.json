@@ -1,0 +1,21 @@
+{
+    "name": "fidata/api-extend",
+    "description": "Extend the MantisBT REST API with issue count and version badges",
+    "type": "mantisbt-plugin",
+    "license": "GPL-3.0-only",
+    "authors": [
+        {
+            "name": "Scott Meesseman",
+            "email": "spmeesseman@gmail.com"
+        }
+    ],
+    "archive": {
+        "exclude": [
+            ".gitignore",
+            "/res",
+            "CHANGELOG.md",
+            ".publishrc.json",
+            "README.md"
+        ]
+    }
+}
