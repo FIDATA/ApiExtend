@@ -11,10 +11,11 @@
     ],
     "archive": {
         "exclude": [
-            ".gitignore",
+            "/api/test",
             "/res",
-            "CHANGELOG.md",
+            ".gitignore",
             ".publishrc.json",
+            "CHANGELOG.md",
             "README.md"
         ]
     }
