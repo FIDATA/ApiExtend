@@ -140,6 +140,6 @@ Example request url:
 
 ```
 mkdir build
-composer archive --format=zip --dir=build --file=ApiExtend
-curl -u%ARTIFACTORY_USERNAME%:%ARTIFACTORY_PASSWORD% "https://fidata.jfrog.io/fidata/composer-local/fidata/ApiExtend.zip;composer.version=1.2.1" -T build/ApiExtend.zip
+composer archive --format=zip --dir=build --file=ApiExtend-1.2.1
+curl -u%ARTIFACTORY_USERNAME%:%ARTIFACTORY_PASSWORD% "https://fidata.jfrog.io/fidata/composer-local/fidata/ApiExtend-1.2.1.zip;composer.version=1.2.1" -T build/ApiExtend-1.2.1.zip
 ```
